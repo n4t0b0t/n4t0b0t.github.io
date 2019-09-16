@@ -168,3 +168,19 @@ figcaption {
   color: #fff;
   background-color: #616161;
 }
+
+.left {
+  float: left;
+}
+
+.margin-right {
+  margin-right: 16px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.large {
+  font-size: 18px;
+}
