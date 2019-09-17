@@ -188,3 +188,8 @@ figcaption {
 a {
   color: white;
 }
+
+.section {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
