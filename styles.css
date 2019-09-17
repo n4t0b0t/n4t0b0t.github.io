@@ -198,3 +198,37 @@ a {
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
+.top {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+.bar .bar-item {
+  float: left;
+  border: none;
+  display: block;
+  outline: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .hide-small {
+    display: none;
+  }
+  #main {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .hide-large {
+    display: none;
+  }
+}
