@@ -184,3 +184,7 @@ figcaption {
 .large {
   font-size: 18px;
 }
+
+a {
+  color: white;
+}
