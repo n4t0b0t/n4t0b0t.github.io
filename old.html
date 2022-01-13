@@ -6,75 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Helvetica"
+    />
   </head>
   <body class="black">
-    <header>
-      <nav>
-        <ul id="primary-menu">
-          <li class="menu-item current-menu-item">
-            <a href="#"></a>HOME
-          </a>
-          </li>
-          <li class="menu-item">
-            <a
-              href="#about"
-            >
-            ABOUT
-            </a>
-          </li>
-          <li class="menu-item">
-            <a
-              href="#projects"
-            >
-              PROJECTS
-            </a>
-          </li>
-          <li class="menu-item">
-            <a
-              href="#contact"
-            >
-              CONTACT
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <div id="main">
-      <div class="content padding-64">
-        <h1 class="jumbo">progress</h1>
-        <h1 class="jumbo">not perfection</h1>
-        <div class="left-margin"><p>Hi, I'm Natalie Ong.</br>
-        </br>
-      I'm an ex-trader with a diverse set of experiences who thrives in ambiguity and fast-paced environments.
-      With experience on Wall Street, at a start-up incubator, and now at Target’s media arm, people count on me to be driven, resourceful, and collaborative to get things done.
-      </p>
-        </div>
+    <nav class="sidebar small hide-small center">
+      <a href="#" class="bar-item button padding-16 black center"
+        ><p>🏠 HOME</p></a
+      >
+      <a href="#about" class="bar-item button padding-16 hover-black center">
+        <p>👤 ABOUT</p>
+      </a>
+      <a href="#projects" class="bar-item button padding-16 hover-black center">
+        <p>💻 PROJECTS</p>
+      </a>
+      <a href="#contact" class="bar-item button padding-16 hover-black center">
+        <p>✉️ CONTACT</p>
+      </a>
+    </nav>
+    <div class="top hide-large">
+      <div class="bar black opacity hover-opacity-off center small">
+        <a href="#" class="bar-item button" style="width: 25%"><p>HOME</p></a>
+        <a href="#about" class="bar-item button" style="width: 25%">
+          <p>ABOUT</p>
+        </a>
+        <a href="#projects" class="bar-item button" style="width: 25%">
+          <p>PROJECTS</p>
+        </a>
+        <a href="#contact" class="bar-item button" style="width: 25%">
+          <p>CONTACT</p>
+        </a>
       </div>
-      <div class="grey-background">
-      <div class="content padding-64" id="about">
-        <h2>About Me</h2>
-        <hr style="width: 200px; padding-top: 16px"/>
-        <div>
-          <img src="assets/trading_desk.jpg" class="image left margin-right" style="width: 47%" />
+    </div>
+    <div class="padding-large" id="main">
+      <header id="home">
+        <h1 class="jumbo">I'm Natalie Ong.</h1>
+        <p>Aspiring web developer.</p>
+        <img
+          src="assets/trapped_fade.png"
+          class="image"
+          width="960"
+          height="639"
+        />
+      </header>
+      <div class="content text-grey padding-64" id="about">
+        <h2 class="text-light-grey">About Me</h2>
+        <hr style="width: 200px" class="opacity" />
         <p>
-          After graduating from Columbia University, I cut my teeth on the trading floor, as the only woman on an all-male trading team.
-          It was an invaluable experience working with incredibly sharp minds, who taught me how to perform under pressure, be comfortable with data, and manage risk.
-        </br></br>
-        Running a trading book meant owning a book of business; I collaborated with Sales and Structuring teams to identify opportunities and create investment offerings to meet client needs, and then, as the trader, I was responsible for pricing the offering, ensuring the processes were in place so it could scale, and managing the risk and P&L. 
-      </br></br>
+          I'm an ex-trader on a quest to become a web developer! In my journey,
+          I've gone from:
         </p>
+        <div class="image-container">
+          <figure>
+            <figcaption>...this...</figcaption>
+            <img src="assets/trading_desk.jpg" class="image" />
+          </figure>
+          <figure>
+            <figcaption>...to this!</figcaption>
+            <img src="assets/question_mark.gif" class="image" />
+          </figure>
         </div>
-        <div>
-          <img src="assets/potato_workshop.jpg" class="image right margin-left" style="width: 47%" />
-          <p>Post 2008, innovating with structured investments was difficult with tightening regulation, and I entered the start-up space, bringing the financial rigor and structured problem solving I'd developed to a small start-up incubator in Singapore. At Potato Productions, I rolled up my sleeves in a lean, scrappy environment, and wore multiple hats; from working on the incubator's brand and strategy, to leading workshops with early-stage startups.
-            To strengthen my abilities to consult with tech-based startups, I took a 12-week bootcamp to develop my coding and product thinking.
-          </br></br>
-          Now, my diverse experiences have shaped the leader I am today and the value I bring to organizations; I am both a strategist and builder, who tackles complex problems through qualitative and quantitative means, values a cross-pollination of ideas for creative problem-solving, and can build macros in spreadsheets one moment, and present a compelling case to senior leadership the next.
-          I hit the ground running by building strong partnerships, leading data-driven decision-making, and, at the end of the day, listening as though I'm wrong.
-          </p>
-        </div>
-        <!-- <h3 class="padding-16 text-light-grey">My Skills*</h3>
+        <h3 class="padding-16 text-light-grey">My Skills*</h3>
         <p class="wide">Eating</p>
         <div class="white">
           <div class="dark-grey" style="height: 28px; width: 99%"></div>
@@ -83,24 +77,11 @@
         <div class="white">
           <div class="dark-grey" style="height: 28px; width: 60%"></div>
         </div>
-        <p>*These percentages are arbitrary.</p> -->
-      </div></div>
-      <div class="content padding-64" id="projects">
-        <h2 class=>My Projects</h2>
+        <p>*These percentages are arbitrary.</p>
+      </div>
+      <div class="content text-grey padding-64" id="projects">
+        <h2 class="text-light-grey">My Projects</h2>
         <hr style="width: 200px" class="opacity" />
-        <p class="padding-16">Note: Never one to take myself too seriously, the projects below are less about my professional accomplishments and more in the spirit of always continuously learning, being creative, and having fun. </p>
-        <h3 class="padding-16 text-light-grey">
-          Potato Productions Website
-          <span class="small"
-            ><a href="https://www.potatoproductions.com/">Link</a></span
-          >
-        </h3>
-        <p>
-          Made with: Wearing multiple hats, from crafting the content, partnering with a design studio, planning photo shoots, to hands on keyboard developing a custom WordPress theme with PHP and JavaScript
-        </p>
-        <p>
-          Lorem Ipsum.
-        </p>
         <h3 class="padding-16 text-light-grey">
           SpottyStickers
           <span class="small"
@@ -225,16 +206,13 @@
           intuitive web interface with an integrated back-end API service.
         </p>
       </div>
-      <div class="grey-background">
-      <div class="content padding-64" id="contact">
-        <h2 class=>Contact Me</h2>
+      <div class="content text-grey padding-64" id="contact">
+        <h2 class="text-light-grey">Contact Me</h2>
         <hr style="width: 200px" class="opacity" />
         <div class="section">
-          <p>📌 Minneapolis</p>
+          <p>📌 Singapore</p>
           <p>📧 natalie.wy.ong@gmail.com</p>
-          <p>👤 <a href="https://www.linkedin.com/in/natalieong1/">LinkedIn</a></p>
         </div>
-      </div>
       </div>
     </div>
   </body>
